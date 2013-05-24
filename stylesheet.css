@@ -1,0 +1,34 @@
+body, html {
+	height: 100%;
+}
+
+header {
+	position: relative;
+
+	line-height: 75px;
+	border: 1px solid #888;
+	margin: -9px -9px 0px -9px;
+}
+
+aside {
+	display: block;
+	position: relative;
+	float: left;
+	vertical-align: baseline;
+
+	margin: -1px 0px 0px -10px;
+	border: 1px solid steelblue;
+	background: steelblue;
+
+	height: 100%;
+	width: 180px;
+}
+
+.content {
+	position: relative;
+	float: right;
+	border: 1px solid black;
+	margin: -1px 0px 0px -9px;
+
+	width: 802px;
+}
